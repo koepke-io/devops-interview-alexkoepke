@@ -4,6 +4,8 @@ Hi! Welcome to the EnergyHub DevOps code sample. Your assignment will be to writ
 
 During the assignment you will be using https://github.com/spulec/moto to mock calls to AWS S3, the resultant code will not make network requests and will not require an AWS account.
 
+## The Assignment
+
 The goals of the assignment are as follows:
 
 1. Create a readme / setup scripts such that any given engineer can run this code. Ideally in a isolated environment that does not unduly interfere with or modify system packages on their local machine.
@@ -15,7 +17,7 @@ The goals of the assignment are as follows:
 7. Add a web application framework to the core `buildserver.builder` application that can be accessed more or less like so: `curl localhost:$PORT/buildserver/list-assets`
 8. Add documentation on usage of the unit tests, linters, CLI, and web server
 
-The goal of this assignment is to create what would be a build server / CLI utility, that would be able to run both locally and as a web server in AWS. This assignment is untimed, but in total should not take more than 2 hours.
+The goal of this assignment is to create what would be a build server / CLI utility, that would be able to run both locally via CLI and as a web server in AWS. This assignment is untimed, but in total should not take more than 2 hours.
 
 ## Grading
 
