@@ -31,4 +31,4 @@ As DevOps engineers we often are tasked with producing low complexity code, but 
 
 ## Thanks For Working on This!
 
-We aim for this to be a reasonable test of your developement skills, and not be unduly taxing to complete. Please let us know if you have any questions!
+We aim for this to be a reasonable test of your developement skills, and not be unduly taxing to complete. It should be vaguely similar prior work you have done in your career, assuming you have spent time doing some light scripting in python or some similar language. Please let us know if you have any questions, and good luck with the assignement!
