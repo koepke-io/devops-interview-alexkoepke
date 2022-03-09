@@ -10,9 +10,9 @@ The goals of the assignment are as follows:
 
 1. Create a readme / setup scripts such that any given engineer can run this code. Ideally in a isolated environment that does not unduly interfere with or modify system packages on their local machine.
 2. Add a unit test framework so that you can run the unit tests via CLI
-3. Fix the core application code in `buildserver.builder` such that the unit tests in `buildtest.test_builder` pass.
-4. Add a `put_asset` function to builder, and an associated unit test
-5. Add a linter to ensure good code quality, make the linter run before the unit tests via CLI
+3. Add a linter to ensure good code quality, and instructions for running the linter via CLI
+4. Fix the core application code in `buildserver.builder` such that the unit tests in `buildtest.test_builder` pass.
+5. Add a `put_asset` function to builder, and an associated unit test
 6. Add a CLI framework to the core `buildserver.builder` application that can be accessed more or less like so: `builder list-assets`
 7. Add a web application framework to the core `buildserver.builder` application that can be accessed more or less like so: `curl localhost:$PORT/buildserver/list-assets`
 8. Add documentation on usage of the unit tests, linters, CLI, and web server
