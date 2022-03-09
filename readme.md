@@ -1,4 +1,4 @@
-# energyhub devops code sample
+# EnergyHub DevOps Code Sample
 
 Hi! Welcome to the EnergyHub DevOps code sample. Your assignment will be to write python code that mimics the type of code you would be writing during your day to day work. You will be writing code that would become the origins of a theoretical build server, which reads from (a mock of) AWS S3.
 
