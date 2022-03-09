@@ -27,7 +27,7 @@ We will be primarily evaluating your assignment based on the following criteria:
 - Effectiveness of setup scripts
 - Clarity in code and documentation
 
-As DevOps engineers we often are tasked with producing low complexity code, but high quality documentation, and that is the goal you should strive for with your assignment. Additionally, your assignment will be graded more positively if you go above and beyond in any way, so feel encouraged to show off your skills!
+As DevOps engineers we often are tasked with producing low complexity code, but high quality documentation, and that is the goal you should strive for with your assignment. Feel encouraged to show off your strongest skills!
 
 ## Thanks For Working on This!
 
