@@ -1,6 +1,6 @@
-.PHONY: all install requirements format test
+.PHONY: all install requirements format test run
 
-all: format test
+all: format test run
 
 install:
 	python -m pip install -r requirements-dev.txt
@@ -14,3 +14,6 @@ format:
 
 test:
 	python -m pytest
+
+run:
+	flask run
