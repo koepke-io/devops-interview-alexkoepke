@@ -1,4 +1,4 @@
-.PHONY: all install requirements format test run
+.PHONY: all install requirements format test run build docker-run
 
 all: format test run
 
@@ -17,3 +17,9 @@ test:
 
 run:
 	flask run
+
+build:
+	docker build -t $(IMAGE_NAME) . --progress plain
+
+docker-run:
+	docker compose up --build

@@ -1,0 +1,10 @@
+#docker compose file that runs a flask app
+version: '3'
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      FLASK_DEBUG: 1
+    command: flask run --host=0.0.0.0
