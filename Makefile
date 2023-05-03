@@ -1,6 +1,6 @@
 .PHONY: all install requirements format test run build docker-run
 
-all: format test run
+all: format test requirements docker-run
 
 install:
 	python -m pip install -r requirements-dev.txt
@@ -18,8 +18,8 @@ test:
 run:
 	flask run
 
-build:
+docker-build:
 	docker build -t $(IMAGE_NAME) . --progress plain
 
 docker-run:
-	docker compose up --build
+	docker compose up --build --remove-orphans
