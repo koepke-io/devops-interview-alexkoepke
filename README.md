@@ -29,6 +29,11 @@ Inorder to run this application, you will need to have the following installed o
     ```bash
     $ make install
     ```
+4. Copy the .env.example file to .env and update the values as needed:
+
+    ```bash
+    $ cp .env.example .env
+    ```
 
 ## Running the application
 1. Activate the virtual environment:
